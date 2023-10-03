@@ -1,0 +1,18 @@
+import java.util.*;
+public class InfiniteLoop {
+	public static void main(String[] args) {
+		Scanner scan=new Scanner(System.in);
+		System.out.println("Enter a number");
+		int n=scan.nextInt();
+		while(true)
+		{
+			if(n==0)
+			{
+				break;
+			}
+			System.out.print(n+" ");
+			n--;
+		}
+	}
+
+}
